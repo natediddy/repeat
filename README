@@ -1,0 +1,9 @@
+Usage: repeat [-[smhd] N] [-n N] [COMMAND]
+Options:
+  -s N, --seconds=N  Wait N seconds between COMMAND executions
+  -m N, --minutes=N  Wait N minutes between COMMAND executions
+  -h N, --hours=N    Wait N hours between COMMAND executions
+  -d N, --days=N     Wait N days between COMMAND executions
+  -n N, --repeats=N  Execute COMMAND a total of N times
+  -h, --help         Print this help text and exit
+  -v, --version      Print version information and exit
